@@ -1,0 +1,9 @@
+{
+  "body": "{\"title\":\"training 3\",\"core_circuit\":\"circuit 1 \",\"weight_circuit\":\"circuit 2 \"}",
+
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-12345"
+    }
+  }
+}
