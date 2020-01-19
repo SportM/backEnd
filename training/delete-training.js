@@ -14,7 +14,7 @@ export async function main(event, context) {
     };
 
     try {
-        await dynamoDbLib.call("delete-training", params);
+        await dynamoDbLib.call("delete", params);
         return success({ status: true });
     } catch (e) {
         console.log(e);
