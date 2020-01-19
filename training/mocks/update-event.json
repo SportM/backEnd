@@ -1,11 +1,11 @@
 {
   "body": "{\"title\":\"Training 4\",\"core_circuit\":\"circuit 3\"}",
   "pathParameters": {
-    "id": "af8041c0-3660-11ea-8149-f1c4151d6565"
+    "id": "7b9be990-3af7-11ea-9a15-c3dc28683da2"
   },
   "requestContext": {
     "identity": {
-      "cognitoIdentityId": "USER-SUB-12345"
+      "cognitoIdentityId": "USER-SUB-1234"
     }
   }
 }

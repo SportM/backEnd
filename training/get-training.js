@@ -13,7 +13,7 @@ export async function main(event, context) {
         }
     };
     try {
-        const result = await dynamoDbLib.call("get-training.js", params);
+        const result = await dynamoDbLib.call("get", params);
         if (result.Item) {
             // Return the retrieved item
             return success(result.Item);
@@ -21,7 +21,6 @@ export async function main(event, context) {
             return failure({ status: false, error: "Item not found." });
         }
     } catch (e) {
-        console.log(e);
         return failure({ status: false });
     }
 }
